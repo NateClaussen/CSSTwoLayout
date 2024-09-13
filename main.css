@@ -1,0 +1,70 @@
+header {
+	background-color: #56752e;
+	border: 5px solid #638735;
+	padding: 1em;
+	/* position: absolute; */
+
+	length: 100%;
+}
+
+header h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: white;
+}
+
+article p {
+	border-left: 2px;
+	border-right: 2px;
+	width: auto;
+}
+
+#DragonPic {
+	width: 25%;
+	float: left;
+	border-radius: 100%;
+	padding-left: 100px;
+}
+
+#UnicornPic {
+	width: 25%;
+	float: right;
+	border-radius: 100%;
+	padding-right: 100px;
+}
+
+.storyText {
+	width: 75%;
+	margin: auto;
+	/* text-align: center; */
+	margin: auto;
+	font-size: 20pt;
+	margin-bottom: 1em;
+}
+
+nav li {
+	list-style-type: none;
+	padding: 20px;
+	margin: 15px;
+	display: inline-block;
+	background-color: #3d5917;
+	border-radius: 0.5em;
+	/* float: right;/ */
+	top: -100px;
+	/* position: absolute; */
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav li:hover {
+	background-color: #527a1c;
+}
+
+footer {
+	background-color: #56752e;
+	text-align: center;
+	padding: 1em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
